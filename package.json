@@ -42,16 +42,6 @@
     "image-processing",
     "vision-camera"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tony-xlh/vision-camera-cropper.git"
-  },
-  "author": "xulihang <xulihanghai@163.com> (https://github.com/tony-xlh)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tony-xlh/vision-camera-cropper/issues"
-  },
-  "homepage": "https://github.com/tony-xlh/vision-camera-cropper#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

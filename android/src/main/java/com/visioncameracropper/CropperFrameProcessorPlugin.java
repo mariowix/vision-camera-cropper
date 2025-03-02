@@ -37,9 +37,7 @@ public class CropperFrameProcessorPlugin extends FrameProcessorPlugin {
             double top = (double) cropRegion.get("top");
             double width = (double) cropRegion.get("width");
             double height = (double) cropRegion.get("height");
-
-            Log.d("CropperFrameProcessorPlugin", "Crop region (percent): Left = " + leftPercent + "%, Top = " + topPercent + "%, Width = " + widthPercent + "%, Height = " + heightPercent + "%");
-
+            
             // Convert percentages to pixel values
             //double left = (leftPercent / 100.0) * bm.getWidth();
             //double top = (topPercent / 100.0) * bm.getHeight();

@@ -58,7 +58,7 @@ public class CropperFrameProcessorPlugin extends FrameProcessorPlugin {
 
             // Crop the bitmap using the adjusted values
             bm = Bitmap.createBitmap(bm, (int) left, (int) top, (int) width, (int) height, null, false);
-            bm = Bitmap.createScaledBitmap(bm, 112, 112, true);
+            bm = Bitmap.createScaledBitmap(bm, 224, 224, true);
             Log.d("CropperFrameProcessorPlugin", "Cropped bitmap dimensions: " + bm.getWidth() + "x" + bm.getHeight());
         }
 

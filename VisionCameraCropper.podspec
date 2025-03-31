@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.name         = "VisionCameraCropper"
   s.version      = package["version"]
   s.summary      = package["description"]
-  s.homepage     = package["homepage"]
-  s.license      = package["license"]
-  s.authors      = package["author"]
+  s.homepage     = 'https://github.com/tony-xlh/vision-camera-cropper.git'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author       = { 'xulihang' => 'xulihanghai@163.com' }
 
   s.platforms    = { :ios => min_ios_version_supported }
   s.source       = { :git => "https://github.com/tony-xlh/vision-camera-cropper.git", :tag => "#{s.version}" }
